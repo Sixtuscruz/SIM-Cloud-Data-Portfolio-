@@ -1,0 +1,57 @@
+[
+  {
+    "eventId": "evt-001",
+    "timestamp": "2025-01-10T10:15:30Z",
+    "resourceId": "vm-sec-001",
+    "region": "eastus",
+    "riskScore": 5,
+    "driftLevel": 20,
+    "threatVelocity": 10,
+    "eventType": "NormalOperation",
+    "configurationState": "Compliant"
+  },
+  {
+    "eventId": "evt-002",
+    "timestamp": "2025-01-10T10:17:45Z",
+    "resourceId": "vm-sec-002",
+    "region": "northeurope",
+    "riskScore": 32,
+    "driftLevel": 40,
+    "threatVelocity": 15,
+    "eventType": "SuspiciousLogin",
+    "configurationState": "Warning"
+  },
+  {
+    "eventId": "evt-003",
+    "timestamp": "2025-01-10T10:20:12Z",
+    "resourceId": "storage-sec-001",
+    "region": "westus",
+    "riskScore": 10,
+    "driftLevel": 95,
+    "threatVelocity": 20,
+    "eventType": "ConfigurationChange",
+    "configurationState": "Drifted"
+  },
+  {
+    "eventId": "evt-004",
+    "timestamp": "2025-01-10T10:22:58Z",
+    "resourceId": "db-sec-001",
+    "region": "eastus2",
+    "riskScore": -5,
+    "driftLevel": 92,
+    "threatVelocity": 45,
+    "eventType": "HeavyRain",
+    "configurationState": "Critical"
+  },
+  {
+    "eventId": "evt-005",
+    "timestamp": "2025-01-10T10:25:41Z",
+    "resourceId": "app-sec-001",
+    "region": "southeastasia",
+    "riskScore": 30,
+    "driftLevel": 91,
+    "threatVelocity": 50,
+    "eventType": "Thunderstorm",
+    "configurationState": "Critical"
+  }
+]
